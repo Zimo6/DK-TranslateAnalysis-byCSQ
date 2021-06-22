@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- @{ hct.zhangningyu, 20180724, add for smartkey. -->
+    <string-array name="smart_key_shortcut_title_array" translatable="false">
+        <item>@string/smart_key_no_operation_title</item>
+        <item>@string/smart_key_soundrecord_title</item>
+        <item>@string/smart_key_open_flashlight_title</item>
+        <item>@string/smart_key_snap_screen_title</item>
+    </string-array>
+    <array name="smart_key_shortcut_icon_array" translatable="false">
+        <item>@drawable/ic_smart_key_no_operation</item>
+        <item>@drawable/ic_smart_key_soundrecorder</item>
+        <item>@drawable/ic_smart_key_flashlight</item>
+        <item>@drawable/ic_smart_key_screen_shot</item>
+    </array>
+
+    <string-array name="smart_key_shortcut_sos_title_array" translatable="false">
+        <item>@string/smart_key_no_operation_title</item>
+        <item>@string/smart_key_soundrecord_title</item>
+        <item>@string/smart_key_open_flashlight_title</item>
+        <item>@string/smart_key_snap_screen_title</item>
+        <item>@string/smart_key_open_water_camera</item>
+        <item>@string/smart_key_open_zello_title</item>
+        <item>@string/smart_key_open_sos_title</item>
+        <item>@string/smart_key_open_game_mode</item>
+    </string-array>
+
+    <!--
+        The functions represented by each value are fixed in the code,
+        if overlay is required, keep the correspondence.
+        no_operation : 0
+        soundrecord  : 1
+        flashlight   : 2
+        snap_screen  : 3
+        water_camera : 4
+        zello        : 5
+        sos          : 6
+        game_mode    : 7
+    -->
+    <integer-array name="smart_key_shortcut_sos_value_array" translatable="false" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <array name="smart_key_shortcut_sos_icon_array" translatable="false">
+        <item>@drawable/ic_smart_key_no_operation</item>
+        <item>@drawable/ic_smart_key_soundrecorder</item>
+        <item>@drawable/ic_smart_key_flashlight</item>
+        <item>@drawable/ic_smart_key_screen_shot</item>
+        <item>@drawable/ic_smart_key_water_camera</item>
+        <item>@drawable/ic_smart_key_zello</item>
+        <item>@drawable/ic_smart_key_sos</item>
+        <item>@drawable/ic_smart_key_game_mode</item>
+    </array>
+    <!-- }@ -->
+
+    <!-- start, wangsenhao, for functions tab, 2019.10.30 -->
+    <string-array name="homepage_function_items_entries" translatable="false">
+        <item>smartkey</item>
+        <item>chlidmode</item>
+        <item>gesturemotion</item>
+        <item>gesturewake</item>
+        <item>codescan</item>
+        <item>mirror</item>
+        <item>smarttouch</item>
+        <item>easylauncher</item>
+        <item>onehandmode</item>
+        <item>gloves</item>
+    </string-array>
+    <!-- start, wangsenhao, for functions tab, 2019.10.30 -->
+    
+    <!-- add by wangshuoshuo for hide some app for fingerprint app shortcuts -->
+    <string-array name="config_fingerprint_hide_app_list" translatable="false">
+        <item>com.st.nfc.dta.mobile/com.st.nfc.dta.mobile.MainActivity</item>
+        <item>com.android.qr_codescan/com.android.qr_codescan.MipcaActivityCapture</item>
+        <item>com.android.mirror/com.android.mirror.MirrorActivity</item>
+    </string-array>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- hct cuiluhao add remove duo preview version account don't support -->
+    <string-array name="hct_hide_account_packages" translatable="false">
+        <item>com.google.android.gms.matchstick</item>
+    </string-array>
+    <!-- hct cuiluhao add remove duo preview version account don't support -->
+    <!--hct cuiluhao add date format-->
+    <string-array name="data_format_entries">
+        <item>mm/dd/yyyy,ee</item>
+        <item>dd/mm/yyyy,ee</item>
+        <item>yyyy/mm/dd,ee</item>
+    </string-array>
+    <string-array name="data_format_entryValues">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <!--hct cuiluhao add date format-->
+    
+    <!--hct cuiluhao add settings homepage custom icon-->
+    <array name="setting_homepage_preference_key">
+        <item>hct_top_level_wifi</item>
+        <item>bluetooth_switchbar_screen</item>
+        <item>hct_top_level_simmobile</item>
+        <item>top_level_other_wireless_con</item>
+        <item>top_level_display</item>
+        <item>top_level_marquee</item>
+        <item>top_level_sound</item>
+        <item>top_level_gesture</item>
+        <item>top_level_apps_and_notifs</item>
+        <item>top_level_security</item>
+        <item>top_level_privacy</item>
+        <item>top_level_location</item>
+        <item>top_level_battery</item>
+        <item>top_level_storage</item>
+        <item>top_level_accessibility</item>
+        <item>top_level_accounts</item>
+        <item>top_level_system</item>
+        <item>top_level_about_device</item>
+    </array>
+    
+    <array name="setting_homepage_preference_custom_icon">
+        <item>ic_homepage_network_hct</item>
+        <item>ic_homepage_connected_device_hct</item>
+        <item>ic_homepage_simmobile_hct</item>
+        <item>ic_homepage_other_connect</item>
+        <item>ic_homepage_display_hct</item>
+        <item>ic_homepage_sound_hct</item>
+        <item>ic_settings_gestures</item>
+        <item>ic_homepage_apps_hct</item>
+        <item>ic_homepage_security_hct</item>
+        <item>ic_homepage_privacy_hct</item>
+        <item>ic_homepage_location_hct</item>
+        <item>ic_homepage_battery_hct</item>
+        <item>ic_homepage_storage_hct</item>
+        <item>ic_homepage_accessibility_hct</item>
+        <item>ic_homepage_accounts_hct</item>
+        <item>ic_homepage_system_hct</item>
+        <item>ic_homepage_about_device_hct</item>
+    </array>
+
+    <!--bv sunyue add for homepage_preference_custom_icon start 20201217-->
+    <array name="bv_setting_homepage_preference_custom_icon">
+        <item>ic_bv_toplevel_wlan</item>
+        <item>ic_bv_toplevel_bt</item>
+        <item>ic_bv_toplevel_sim_and_data_usage</item>
+        <item>ic_bv_other_wireless_con</item>
+        <item>ic_bv_toplevel_display</item>
+        <item>ic_bv_toplevel_sound</item>
+        <item>ic_bv_toplevel_gesture</item>
+        <item>ic_bv_toplevel_apps_notification</item>
+        <item>ic_bv_toplevel_security</item>
+        <item>ic_bv_toplevel_privacy</item>
+        <item>ic_bv_toplevel_location</item>
+        <item>ic_bv_toplevel_battery</item>
+        <item>ic_bv_toplevel_storage</item>
+        <item>ic_bv_toplevel_accessibility</item>
+        <item>ic_bv_toplevel_accounts</item>
+        <item>ic_bv_toplevel_system</item>
+        <item>ic_bv_toplevel_about</item>
+    </array>
+
+    <array name="bv_setting_homepage_thirdapk_icon">
+        <item>ic_homepage_fingerprint_hct</item>
+        <item>ic_bv_toplevel_face_unlock</item>
+        <item>ic_bv_toplevel_healthy</item>
+        <item>ic_bv_toplevel_google</item>
+        <item>ic_homepage_duraspeed_hct</item>
+        <item>ic_homepage_gesturemotion_hct</item>
+        <item>ic_homepage_gesturewake_hct</item>
+        <item>ic_homepage_smartkey_hct</item>
+        <item>ic_homepage_sos_hct</item>
+        <item>ic_homepage_qrcodescan_hct</item>
+        <item>ic_homepage_openmore_hct</item>
+    </array>
+    <!--bv sunyue add for homepage_preference_custom_icon end 20201217-->
+
+    <array name="setting_homepage_thirdapk_activityname">
+        <item>com.android.settings.Settings$FingerprintManagerSettingsActivity</item>
+        <item>com.elephanttek.faceunlock.activity.SettingHomeActivity</item>
+        <item>com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity</item>
+        <item>com.google.android.gms.app.settings.GoogleSettingsIALink</item>
+        <item>com.mediatek.duraspeed.DuraSpeedMainActivity</item>
+        <item>com.android.settings.Settings$HctGestureMotionSettingActivity</item>
+        <item>com.android.settings.Settings$GestureWakeSettingsActivity</item>
+        <item>com.android.settings.Settings$ShortcutsSettingsActivity</item>
+        <item>com.hct.soscall.SettingsActivity</item>
+        <item>com.android.settings.Settings$HctScanCodeSettingsActivity</item>
+        <item>com.hct.openmore.HctAppOpenMoreMainActivity</item>
+    </array>
+    
+    <array name="setting_homepage_thirdapk_icon">
+        <item>ic_homepage_fingerprint_hct</item>
+        <item>ic_homepage_faceunlock_hct</item>
+        <item>ic_homepage_wellbeing_hct</item>
+        <item>ic_homepage_google_hct</item>
+        <item>ic_homepage_duraspeed_hct</item>
+        <item>ic_homepage_gesturemotion_hct</item>
+        <item>ic_homepage_gesturewake_hct</item>
+        <item>ic_homepage_smartkey_hct</item>
+        <item>ic_homepage_sos_hct</item>
+        <item>ic_homepage_qrcodescan_hct</item>
+        <item>ic_homepage_openmore_hct</item>
+    </array>
+    <!--hct cuiluhao add settings homepage custom icon-->
+    
+    <!--hct cuiluhao add fix setting widget icon tint-->
+    <array name="setting_widget_icon_name">
+        <!--<item>com.android.settings.Settings$WifiSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$DataUsageSummaryActivity</item>-->
+        <!--<item>com.android.settings.Settings$WifiTetherSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$VpnSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$ManageApplicationsActivity</item>-->
+        <!--<item>com.android.settings.Settings$ConfigureNotificationSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$NotificationStationActivity</item>-->
+        <!--<item>com.android.settings.Settings$NightDisplaySettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$ZenModeSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$PowerUsageSummaryActivity</item>-->
+        <!--<item>com.android.settings.Settings$LocationSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$SystemDashboardActivity</item>-->
+        <!--<item>com.android.settings.Settings$MyDeviceInfoActivity</item>-->
+        <!--<item>com.android.settings.Settings$BluetoothSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$DisplaySettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$SoundSettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$StorageDashboardActivity</item>-->
+        <!--<item>com.android.settings.Settings$AccountDashboardActivity</item>-->
+        <!--<item>com.android.settings.Settings$AccessibilitySettingsActivity</item>-->
+        <!--<item>com.android.settings.Settings$HctGestureMotionSettingActivity</item>-->
+    </array>
+    <!--hct cuiluhao add fix setting widget icon tint-->
+
+    <!--hct liuyang add for battery advanced settings begin -->
+    <string-array name="apps_need_control_wakeup" translatable="false">
+        <item>com.android.mms</item>
+        <item>com.google.android.apps.messaging</item>
+    </string-array>
+
+    <string-array name="apps_need_control_clean" translatable="false">
+
+    </string-array>
+    
+    <!--hct liuyang add for battery advanced settings end -->
+    <string-array name="select_networks_choices" translatable="false">
+        <item>@string/hct_selectmode_auto</item>
+        <item>@string/hct_selectmode_nsa</item>
+        <item>@string/hct_selectmode_sansa</item>
+    </string-array>
+    <string-array name="select_networks_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+</resources>

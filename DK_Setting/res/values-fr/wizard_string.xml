@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Conditions d\'utilisation et déclaration</string>
+    <string name="privacy_tips">Veuillez bien lire les conditions suivantes avant d\'utiliser le téléphone mobile Duoke ; cliquez sur le titre pour ouvrir le fichier. Une fois que vous utilisez l\'appareil de Duoke, cela signifie que vous avez lu la Politique de confidentialité et accepté le Contrat de licence d\'utilisateur.</string>
+    <string name="privacy_policy_tile">Politique de confidentialité</string>
+    <string name="privacy_license_tile">Contrat de licence d\'utilisateur</string>
+    <string name="privacy_agree_tile">J\'ai lu et accepté les conditions d\'utilisation susmentionnées</string>
+    <string name="privacy_button_agree">D\'accord</string>
+    <string name="privacy_dialog_close">Fermer</string>
+
+    <string name="wizard_navigation_title">"Choisir mode navigation "</string>
+    <string name="wizard_navigation_gesture">"Navigation gestuelle"</string>
+    <string name="wizard_navigation_three_button">"Navigation à 3 boutons"</string>
+    <string name="wizard_navigation_next">"Suivant"</string>
+</resources>

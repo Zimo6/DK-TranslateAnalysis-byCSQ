@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources>
+
+    <string name="privacy_title">Terms of Use and Representations</string>
+    <string name="privacy_tips">Please read the following terms carefully before using Doke phone. Click on its title can open the file for reading. Using Doke devices means that you have read the Privacy Policy and agree with the User License Agreement.</string>
+    <string name="privacy_policy_tile">Privacy Policy</string>
+    <string name="privacy_license_tile">User License Agreement</string>
+    <string name="privacy_agree_tile">I have read and agree to the Terms of Use listed above.</string>
+    <string name="privacy_button_agree">Agree</string>
+    <string name="privacy_dialog_close">Close</string>
+
+    <!-- hct_suw_title hct_suw_gestural--> <!--hct_suw_3buttons--> <!--hct_suw_next-->
+    <string name="wizard_navigation_title">System navigation</string>
+    <string name="wizard_navigation_gesture">Gestural navigation</string>
+    <string name="wizard_navigation_three_button">3-buttons navigation</string>
+    <string name="wizard_navigation_next">Next</string>
+
+    <!--no translate start-->
+    <string name="privacy_policy_spot">●</string>
+    <string name="privacy_policy_email">support02@blackview.hk\n</string>
+    <string name="privacy_policy_fragment_title">Privacy Policy</string>
+    <string name="privacy_policy_content_0">\nLast updated: October 24, 2020\n</string>
+    <string name="privacy_policy_title_1">DOKE Privacy Policy</string>
+    <string name="privacy_policy_content_10">Shenzhen DOKE Electronic Co., Ltd. (“we” or “us” or “our”) respects the privacy of our users (“user” or “you”). This privacy policy explains how we, as a data controller, collect, use, disclose, and safeguard your information, including your personal data, when you visit our mobile application (the “Application”).  Please read this Privacy Policy carefully.\n</string>
+    <string name="privacy_policy_content_11">We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. We will seek separate notifications and consents from you for important changes to the Privacy Policy that will affect your rights. \n</string>
+
+    <string name="privacy_policy_title_2">Third-party websites</string>
+    <string name="privacy_policy_content_20">The Application may contain links to third-party websites and applications of interest, including advertisements and external services, that are not affiliated with us. We are not responsible for the content or privacy and security practices and policies of any third parties, including other sites, services or applications that may be linked to or from the Application.  Once you have used these links to leave the Application, any information you provide to these third-parties is not covered by this Privacy Policy, and we cannot guarantee the safety and privacy of your information.\n</string>
+    <string name="privacy_policy_content_21">Before visiting and providing any information to any third-party websites, you should inform yourself of the privacy policies and practices of the third-party responsible for that website, and should take those steps necessary to protect the privacy of your information.\n</string>
+
+    <string name="privacy_policy_title_3">Information we collect</string>
+    <string name="privacy_policy_content_30">We may collect information about you in a variety of ways to ensure the Application operates effectively and to provide you the best experience with our Application.  We also may collect personal data that you voluntarily give to us when choosing to participate in various activities related to the Application.  \n</string>
+    <string name="privacy_policy_content_31">The information we may collect via the Application depends on the content and materials you use. Some of it (standing alone or in combination with other data sets) may qualify as “personal data” under EU data protection law (i.e., information relating to an identified or identifiable natural person).   Such information may include:\n</string>
+    <string name="privacy_policy_content_32">Device Settings</string>
+    <string name="privacy_policy_content_33">We collect the language settings on your device, the initial software setting, and the mobile country and network codes in order to provide notifications in the language most relevant to you.\n</string>
+    <string name="privacy_policy_content_34">Derivative Data</string>
+    <string name="privacy_policy_content_35">Our services may automatically collect about you and/or your device when you access the Application, such as whether you are a new user, your activity while using the Application, the activation time, the time of your last use of the Application, and total time you’ve used the Application, and the last download time.\n</string>
+    <string name="privacy_policy_content_36">Mobile Device and Network Data</string>
+    <string name="privacy_policy_content_37">We may collect data about your device and network connectivity, typically through an export file from your device:  these data sets include your device type, brand and manufacturer; platform; device model; version; size of your device screen; the initial SIM 1 and SIM 2 carriers; default device settings including default browser; memory size of the device and SD card; your International Mobile Equipment Identity (“IMEI”) for the first and second SIM card slots of your device (if applicable); the unique identifier for your device; your Google advertising ID; phone serial number; MAC address; IP address; amount of data used; broad geographic location and the service provider and type of network (e.g., WiFi, mobile) you use to use our Application. The information we collect automatically may include information like your IP address, device type, unique device identification numbers, browser-type, broad geographic location (e.g. country or city-level location), update success and status, and other technical information. The export file on user and update analytics data will be updated every other day.\n</string>
+    <string name="privacy_policy_content_38">Push Notifications</string>
+    <string name="privacy_policy_content_39">We may request to send you push notifications regarding the Application, including Application updates. \n</string>
+
+    <string name="privacy_policy_title_4">What we do with the information we collect</string>
+    <string name="privacy_policy_content_40">We require this information to understand your needs and provide you with a better service. In particular, we collect this information for the purposes of:\n</string>
+    <string name="privacy_policy_content_41">*Providing Firmware Over-The-Air (“FOTA”) services to wirelessly upgrade and update the operating firmware on your device.\n</string>
+    <string name="privacy_policy_content_42">*Providing the Application, including tailoring the Application to your preferences and ensuring compatibility with your device.\n</string>
+    <string name="privacy_policy_content_43">*Diagnosing Application problems.</string>
+    <string name="privacy_policy_content_44">*Providing customer care and support services such as personalized support services and instructions and giving responses to you.\n</string>
+    <string name="privacy_policy_content_45">*Fulfilling our responsibilities and enforcing our rights.</string>
+    <string name="privacy_policy_content_46">*Updating and improving the Application and the FOTA services.\n</string>
+    <string name="privacy_policy_content_47">We are not processing your data for automatic decision making (including profiling).\n</string>
+
+    <string name="privacy_policy_title_5">Your Consent and Withdrawal of Consent</string>
+    <string name="privacy_policy_content_50">We store the information collected from your use of this Application for no longer than is necessary to provide the Application and customer support to you. If you do not consent to our collection of your personal data, you will be unable to provide optimized services to your device and we will not be able to collect your personal data. In the event that you grant consent but subsequently stop using this Application or withdraw your consent, we will delete or anonymize the data already collected about you and your device. Also, we will anonymize the data at your device and provide only basic services based on the anonymized data.  Your decision to withdraw your consent to the processing of your data will not affect personal data processing based on your previous authorization of your personal information, or any processing conducted in reliance on lawful processing grounds other than consent.\n</string>
+
+    <string name="privacy_policy_title_6">Our Data Retention Principles</string>
+    <string name="privacy_policy_content_60">We retain personal data we collect from you where we have an ongoing legitimate business need to do so for example, to provide you with a service you have requested or to comply with applicable legal, tax or accounting requirements. When we have no ongoing legitimate business need to process your data, we will either delete or anonymize such data or, if this is not possible (for example, because your data has been stored in backup archives), then we will securely store your data and isolate it from any further processing until deletion is possible.  \n</string>
+
+    <string name="privacy_policy_title_7">Sharing, transfers, and storage of the information we collect</string>
+    <string name="privacy_policy_content_70">We do not share and will not transfer your personal data collected from your use of this Application with any un-affiliated third-party (including any governmental agencies), unless required by applicable law or otherwise disclosed in this Privacy Policy. We will only share your data for legitimate, reasonable, necessary, specific, and explicit purposes. We may share aggregated information with our trusted business partners – such as content delivery networks, internet data centers and device manufacturers – to provide and/or improve the Application and/or your device. We may provide your data to content delivery networks to enable your device to download updates to the Application.  Your data may be shared with internet data centers who host our servers in the provision of the Application.  We may also allow device manufacturers to access some of your data, including your IMEI identifiers, through our FOTA panel located in Hong Kong to improve the device’s software and/or hardware and to enable you to download files and updates. The data sharing is necessary for the performance of the contract between you and us, and is subject to appropriate safeguards as required by relevant data protection laws. We will not sell, distribute or lease the information we collect about you to third parties other than as described in this Privacy Policy unless we have your express consent, or unless we are required by to do so by applicable law.\n</string>
+    <string name="privacy_policy_content_71">We have affiliates (manufacturers and other business partners) around the world, including in China where we are headquartered.  We only provide our affiliates with access to data associated with their respective end users.  The server used for overseas users is based in Hong Kong, which has stringent data protection laws. When we transfer EU personal data outside of the EEA, we ensure an adequate level of protection for the rights of data subjects based on the adequacy of the receiving country’s data protection laws.\n</string>
+    <string name="privacy_policy_content_72">If we undertake or are involved in any merger, acquisition, reorganization, sale of assets, bankruptcy or insolvency event, then we may sell, transfer or share some or all of our assets, including your data in connection with such transaction or in contemplation of such transaction (e.g. due diligence). In this event, we will require the new companies or organizations that hold your data to continue to be bound by this Privacy Policy, as is written at the time that your data is transferred to the new companies or organizations. Otherwise we will require the companies or the organizations to ask for your re-authorization and re-consent.\n</string>
+    <string name="privacy_policy_content_73">We may also share aggregated information (i.e., information about our users that we combine so that it no longer identifies or references an individual user) and other anonymized information for regulatory compliance, industry and market analysis, demographic profiling, marketing and advertising, and other legitimate business purposes.\n</string>
+
+    <string name="privacy_policy_title_8">Our security measures to protect your information</string>
+    <string name="privacy_policy_content_80">In order to prevent unauthorized access or disclosure of your personal data, we have put in place appropriate technical, organizational and physical measures to protect your data, including employing secure communication protocols for data transmission, employing secure internal data servers for storing collected data, requiring public key authentication for communication between servers within the our internal network, and maintaining a protected internal network through the use of firewalls and physical safeguards.  \n</string>
+    <string name="privacy_policy_content_81">While we have taken reasonable steps to secure the data you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission or storage can be guaranteed against any interception or other type of misuse.  Any information disclosed online is vulnerable to interception and misuse by unauthorized parties.  Therefore, while we are committed to ensuring that your information is secure, we cannot guarantee complete security if you provide personal data. We comply will all data breach notification laws and will provide notice of a breach unless the breach is unlikely to result in a risk to the rights and freedoms of the individuals impacted by the breach.\n</string>
+
+    <string name="privacy_policy_title_9">Use of the Application by children under age 16</string>
+    <string name="privacy_policy_content_90">We do not knowingly solicit information from or market to children under the age of 16.  If you become aware of any data we have collected from children under age 16, please contact us using the contact information and procedures provided in this Privacy Policy.\n</string>
+
+    <string name="privacy_policy_title_a">Your data protection rights</string>
+    <string name="privacy_policy_content_a0">If you are located in the EU/EEA, you have individual rights to control the personal data we collect you. You may at any time and at no cost review or change the data we have regarding your use of the Application by contacting us using the contact information and procedures provided in this Privacy Policy. To protect the security, you may need to provide the request in writing or in other methods which enable verification of your identity. We do not charge for your first reasonable access request, however we will charge a certain amount of cost for the requests that are repetitive and exceed reasonable limits. You also have the right to:\n</string>
+    <string name="privacy_policy_content_a1">*Correct the data we collect and store about you\n</string>
+    <string name="privacy_policy_content_a2">*Request deletion of the data we collect and store about you\n</string>
+    <string name="privacy_policy_content_a3">*Restrict the processing of your data.\n</string>
+    <string name="privacy_policy_content_a4">*A right to obtain a copy of your data to exert your data portability rights.\n</string>
+    <string name="privacy_policy_content_a5">*Object to the automated processing of your data and profiling.\n</string>
+    <string name="privacy_policy_content_a6">*Withdraw your consent to our processing of your personal data at any time by notifying us at </string>
+    <string name="privacy_policy_content_a7">We will comply with your request(s) as soon as reasonably practicable. If you are not satisfied with our response, you can complain to any applicable data protection authority in your country of residence.\n</string>
+
+    <string name="privacy_policy_title_b">Our Contact information</string>
+    <string name="privacy_policy_content_b0">You can contact us at:</string>
+    <string name="privacy_policy_content_b1">Shenzhen DOKE Electronic Co., Ltd.</string>
+    <string name="privacy_policy_content_b2">Email: support02@blackview.hk\n</string>
+    <string name="privacy_policy_content_b3">We have also appointed a Data Protection Offer (“DPO”) to oversee our privacy practices and ensure compliance with the GDPR.  You can contact our DPO with any inquiry, comments or suggestions about this Privacy Policy anytime by at </string>
+
+    <string name="privacy_policy_title_c">Updates to this Privacy Policy</string>
+    <string name="privacy_policy_content_c0">We may update our Privacy Policy from time to time. If we make changes to this Privacy Policy, we will post the revised Privacy Policy on the website and update the \'Last Updated\' date at the top of this Privacy Policy. \n</string>
+    <string name="privacy_policy_content_c1">We will give you the opportunity to review the revised Policy before you choose to continue using the Application. If you disagree with the revised Privacy Policy, you may cease your use of the Application. If you do not cease your use of the Application before the date the revised Privacy Policy becomes effective, your continued access to or use of the DOKE services will be subject to the revised Privacy Policy. For material changes, we may also provide a more prominent notice illustrating the specific changes in the Privacy Policy.\n</string>
+
+    <string name="privacy_license_fragment_title">Consent Form</string>
+    <string name="privacy_license_title_1">\nDOKE GDPR Informed Consent</string>
+    <string name="privacy_license_content_10">Shenzhen DOKE Electronic Co., Ltd. (“DOKE”, “we”, “us” or “our”) is required to comply, in particular, with the EU’s General Data Protection Regulation 2016/679 (“GDPR”).  Any personal data that you provide to us or that we collect about you will be treated in accordance with the principles of the GDPR and as set out in our Privacy PolicyAs set out in our Privacy Policy, we need to obtain and use personal data about you for certain purposes, including ensuring that this Application operates effectively and to provide you the best experience with the Application. Personal data that we may collect includes personally identifiable information, as well as information about your device, network and use of the Application.\n</string>
+    <string name="privacy_license_content_100"> Your personal data is accessed by us and our affiliates (including device manufacturers and service providers such as CDN vendor(s), network vendor(s), etc.) only for the purposes of providing service to you, and for other regulatory purposes and legitimate business interests.\n</string>
+    <string name="privacy_license_content_11">Please be sure to read our Privacy Policycarefully prior to providing consent for our collection of information about you.\n</string>
+    <string name="privacy_license_content_12">I hereby consent that my personal data may be processed, by DOKE, and third parties as explained in DOKE’ Privacy Policy, for the one or more specified purposes regarding my use of this Application.\n</string>
+    <string name="privacy_license_content_13">I hereby consent that personal data may also be accessed by DOKE’ affiliates for legal, audit, tax and other regulatory purposes and for DOKE’ legitimate business interests.\n</string>
+    <string name="privacy_license_content_14">I hereby consent that DOKE may store my personal information, including information regarding my mobile device, my network, and my use of the Application outside of the European Union or European Economic Area as explained in DOKE’ Privacy Policy for as long as I use this Application.\n</string>
+    <string name="privacy_license_content_15">I further hereby consent that DOKE may contact me by electronic means through push notifications with details of updates to the Application, DOKE’ services, opportunities, products, or contact me to obtain my feedback.\n</string>
+    <string name="privacy_license_content_16">I hereby confirm my understanding that I can revoke my consent entirely or in part at any time by sending an email identifiying myself to support02@blackview.hk or by contacting DOKE as further described in DOKE’ Privacy Policy.\n</string>
+
+    <string name="privacy_license_title_2"> DISCLOSURES (Art. 13 GDPR)</string>
+    <string name="privacy_license_content_2a">(a) The identity and the contact details of the controllers</string>
+    <string name="privacy_license_content_2a0">Shenzhen DOKE Electronic Co., Ltd.</string>
+
+    <string name="privacy_license_content_2b">(b) Contact details of the data protection officer</string>
+    <string name="privacy_license_content_2b0">support02@blackview.hk</string>
+
+    <string name="privacy_license_content_2c">(c) Purposes of the processing for which the personal data are intended</string>
+    <string name="privacy_license_content_2c0">Providing our services to you, diagnosing Application problems, providing customer care and support services, improving the Application.</string>
+
+    <string name="privacy_license_content_2d">(d) The recipients or categories of recipients of the personal data</string>
+    <string name="privacy_license_content_2d0">Employees of DOKE and its affiliated companies who respond to the inquires as well as external service providers who need to know the data for purposes of providing services.</string>
+
+    <string name="privacy_license_content_2e">(e)   Storage Limitations</string>
+    <string name="privacy_license_content_2e0">Your personal data will be stored by DOKE for a period necessary for the purposes listed under (c) above, unless applicable law (bookkeeping, tax etc.) allows for a longer storage. See the relevant section of our Privacy Policy for more detailed information.</string>
+
+    <string name="privacy_license_content_2f">(f) Access/ Rectification/ Erasure Requests</string>
+    <string name="privacy_license_content_2f0">The individual has the right at any time to request access to and rectification or erasure of personal data held by DOKE or restriction of processing concerning the individual or to object to processing as well as the right to data portability. In these cases, please send an email request identifying yourself to DOKE Data Protection Officer listed under (b).</string>
+
+    <string name="privacy_license_content_2g">(g)  Withdrawals of Consent</string>
+    <string name="privacy_license_content_2g0">The individual has right to withdraw his/her consent at any time, without affecting the lawfulness of processing based on consent before the withdrawal, by sending an email to the Data Protection Officer listed under (b). See the relevant section of our Privacy Policy for more detailed information.</string>
+
+    <string name="privacy_license_content_2h">(h) Complaints with the Supervisory Authorities</string>
+    <string name="privacy_license_content_2h0">The individual has the right to lodge a complaint with his/her data protection authority against the data processing.</string>
+
+    <string name="privacy_license_content_2i">(i) Legal Basis for the processing</string>
+    <string name="privacy_license_content_2i0">The individual is obliged to provide his/her personal data to DOKE (such as device and network information) so that DOKE can provide the Application.</string>
+
+    <string name="privacy_license_content_2j">(j) No automated decision making or profiling</string>
+    <string name="privacy_license_content_2j0">DOKE will not use the personal data of the individual for automated decision-making, including profiling.</string>
+
+    <string name="privacy_license_content_2k">(k) Further processing</string>
+    <string name="privacy_license_content_2k0">In the event DOKE intends to further process the personal data for a purpose other than that for which the personal data was collected, DOKE will provide the individual, prior to that further processing, with information on that other purpose and any further relevant information, insofar as the individual does not already possess such information.</string>
+    <!--no translate end-->
+</resources>

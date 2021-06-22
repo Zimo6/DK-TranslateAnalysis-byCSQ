@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Termini e condizioni di utilizzo</string>
+    <string name="privacy_tips">"Leggere attentamente i seguenti termini prima di utilizzare il telefono Dokko; cliccando sul titolo si aprirà il documento per leggerlo. Utilizzando un dispositivo Dokko, l\'utente dichiara di aver letto l'Informativa sulla privacy e di accettare l\'Accordo di licenza d\'uso."</string>
+    <string name="privacy_policy_tile">POLITICA DELLA PRIVACY</string>
+    <string name="privacy_license_tile">Contratto di licenza con l\'utente</string>
+    <string name="privacy_agree_tile">Ho letto e accetto le condizioni d\'uso di cui sopra</string>
+    <string name="privacy_button_agree">d\'accordo</string>
+    <string name="privacy_dialog_close">Spengere</string>
+
+    <string name="wizard_navigation_title">Navigazione del sistema</string>
+    <string name="wizard_navigation_gesture">Navigazione gestuale</string>
+    <string name="wizard_navigation_three_button">Navigazione a 3 pulsanti</string>
+    <string name="wizard_navigation_next">"Avanti"</string>
+</resources>

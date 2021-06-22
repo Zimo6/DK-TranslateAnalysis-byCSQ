@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- hct liuyang modify for led control begin -->
+    <string name="led_settings">Led</string>
+    <string name="led_settings_charge">Charge</string>
+    <string name="led_settings_charge_summary">Red led on when charging,green led on when fully charged</string>
+    <string name="led_settings_low_battery">Battery low</string>
+    <string name="led_settings_low_battery_summary">Red led Flashing when battery low</string>
+    <string name="led_settings_notify">Event miss</string>
+    <string name="led_settings_notify_summary">Blue led Flashing on when have missed call or unread message</string>
+    <string name="led_settings_notify_summary_for39">Red led Flashing on when have missed call or unread message</string>
+    <string name="led_settings_app">Application message</string>
+    <string name="led_settings_app_summary">Breath light on when have application message</string>
+    <string name="led_settings_auto_brightness">Auto adjust the brightness of breath lamp</string>
+    <!-- hct liuyang modify for led control end -->
+     <string name="hct_resolution_title">Resolution</string>
+     <string name="hct_resolution_style">Custom resolution</string>
+     <string name="hct_resolution_type1_details"><b>QHDP</b>\n 720 x 1440 </string>
+     <string name="hct_resolution_type2_details"><b>FHDP</b>\n 1080 x 2160 </string>
+     <string name="hct_resolution_hide_summary">When the resolution is switched, the screen will be flickering.</string>
+    <!-- HCT: chenyichong add for floatview -->
+    <string name="hct_floatview_title">Float gesture</string>
+    <string name="hct_floatview_open">On</string>
+    <string name="hct_floatview_settings">Hand writer settings</string>
+    <string name="hct_floatview2_title">One Hand FloatView</string>
+    <string name="hct_floatview2_open">On</string>
+    <string name="hct_floatview2_settings">Guide</string>
+    <!-- HCT: chenyichong add for floatview -->
+    
+    <!-- liuyang modify for hide navigation bar -->
+    <string name="hct_navbar_title">Navigationbar</string>
+    <string name="hct_navbar_hide_enable">Navigation bar can be hidden</string>
+    <string name="hct_navbar_hide_summary">Click the drop-down arrow on navigation bar can hide the navigation bar and slide from the edge of the screen to display the navigation bar again.</string>
+    <string name="hct_navbar_style">Navigation bar style</string>
+    <!-- liuyang modify for hide navigation bar -->
+    <!-- HCT: xuejin add fingerprint string -->
+    <string name="finger_keyguard">Unlock device</string>
+    <string name="finger_keyguard_summary">Use fingerprint to unlock your device</string>
+    <string name="finger_app_lock">Application lock</string>
+    <string name="finger_app_lock_summary">Use fingerprint unlock the locked Application</string>
+    <string name="finger_quick_launch">Quick launch shortcuts</string>
+    <string name="finger_quick_launch_summary">Use unique fingerprints to launch relevant shortcusts immediately from lock screen</string>
+    <string name="finger_list">Fingerprints</string>
+    <string name="fingerprint_manager_fun">Fingerprint functions</string>
+    <string name="fingerprint_manager_title">Fingerprint Manager</string>
+    <string name="fingerprint_manager_summary">Manage and set up the fingerprint related functions</string>
+    <string name="fingerprint_app_shortcut_title">Add app shortcuts</string>
+    <string name="fingerprint_app_shortcut_default">None</string>
+    <string name="fingerprint_app_shortcut_prefix">Trigger</string>
+    <string name="fingerprint_dialog_func_confirm_title">Use all fingerprints to launch Func shortcuts?</string>
+    <string name="fingerprint_dialog_func_confirm_content">You won’t be able to enter last access screen or launcher from lock screen by using fingerprints.</string>
+    <string name="fingerprint_dialog_func_confirm_button">Confirm</string>
+    <string name="fingerprint_dialog_func_reset_title">Reset all fingerprint functions?</string>
+    <string name="fingerprint_dialog_func_reset_content">By turning off Quick launch Func shortcuts, all fingerprint functions will be reset to be Unlock device.</string>
+    <string name="fingerprint_dialog_func_reset_button">Reset</string>
+    <string name="fingerprint_dialog_func_remove_title">Remove all fingerprint functions?</string>
+    <string name="fingerprint_dialog_func_remove_content">By turning off Unlock device, all fingerprint functions will be remove.</string>
+    <string name="fingerprint_dialot_func_remove_button">Remove</string>
+    <string name="fingerprint_touch_click">On touch</string>
+    <string name="fingerprint_touch_keyback_title">Return back screen</string>
+    <string name="fingerprint_touch_keyback_summary">Touch the fingerprint sensor to return back screen</string>
+    <string name="fingerprint_touch_music_title">Music Player</string>
+    <string name="fingerprint_touch_music_summary">Single click fingerprint sensor to play or pause, double click this to play next song on music.</string>
+    <string name="fingerprint_touch_video_title">Video Player</string>
+    <string name="fingerprint_touch_video_summary">Touch the fingerprint sensor to play or pause on video</string>
+    <string name="fingerprint_touch_longpress">On touch &amp; hold</string>
+    <string name="fingerprint_touch_recent_title">Recent Task</string>
+    <string name="fingerprint_touch_recent_summary">Touch &amp; hold the fingerprint sensor to recent task</string>
+    <string name="fingerprint_touch_home_title">Back to home screen</string>
+    <string name="fingerprint_touch_home_summary">Touch &amp; hold the fingerprint sensor to go back to the home screen</string>
+    <string name="fingerprint_touch_camera_title">Take photo/video</string>
+    <string name="fingerprint_touch_camera_summary">Touch &amp; hold the fingerprint sensor to take photo/video while in Camera</string>
+    <string name="fingerprint_touch_answer_title">Answer Call</string>
+    <string name="fingerprint_touch_answer_summary">Touch &amp; hold the fingerprint sensor to answer a call</string>
+    <string name="fingerprint_touch_description_summary">Note:These touch control gesture can be performed with any finger and do not require a fingerprint to be enrolled.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_front_message">Locate the fingerprint sensor on the front of your phone.</string>
+    <!-- @{ hct.zhangningyu, 20180808, add for fingerprint side. -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_side_message">Locate the fingerprint sensor on the right side of your phone.</string>
+    <!-- }@ -->
+    <!-- HCT: xuejin add fingerprint string -->
+    <!-- HCT: xuejin gesturewake -->
+    <string name="gesturewake_title">Gesture WakeUp</string>
+    <string name="gesturewake_double_title">Gesture Double-click</string>
+    <string name="gesturewake_double_summary">Double-click to wake</string>
+    <string name="gesturewake_up_title">Gesture Up</string>
+    <string name="gesturewake_unlock">Wake &amp; Unlock the phone</string>
+    <string name="gesturewake_down_title">Gesture Down</string>
+    <string name="gesturewake_left_title">Gesture Left</string>
+    <string name="gesturewake_right_title">Gesture Right</string>
+    <string name="gesturewake_c_title">Gesture c</string>
+    <string name="gesturewake_m_title">Gesture m</string>
+    <string name="gesturewake_e_title">Gesture e</string>
+    <string name="gesturewake_o_title">Gesture o</string>
+    <string name="gesturewake_w_title">Gesture w</string>
+    <string name="gesturewake_z_title">Gesture z</string>
+    <string name="gesturewake_s_title">Gesture s</string>
+    <string name="gesturewake_v_title">Gesture v</string>
+    <string name="gesturewake_default_summary">Default</string>
+    <string name="gesturewake_action">Trigger</string>
+    <string name="gesturewake_choose_app">Choose app</string>
+    <string name="gesturewake_slide_next">Play next song</string>
+    <string name="gesturewake_slide_prev">Play previous song</string>
+    <string name="gesturewake_slide_play">Play or Pause</string>
+    <!-- HCT: xuejin gesturewake -->
+    <!-- add for Gesture settings for doogee . hct.zhouzhigang 20150105 -->
+    <string name="hct_title_system_gesture">System Gesture</string>
+    <string name="hct_title_three_point_screenshot">Three point screenshot</string>
+    <string name="hct_title_three_point_screenshot_mark">Three fingers at the same time the lower sliding screenshot</string>
+    <string name="hct_title_clipscreen">Clip screen</string>
+    <string name="hct_title_clipscreen_mark">Long press back key to start clip screen mode</string>
+    <string name="hct_title_three_point_entrycamera">Three point entry camera</string>
+    <string name="hct_title_three_point_entrycamera_mark">Three fingers at the same time the up sliding entry camera</string>
+    <string name="hct_title_two_point_adjust_volume">Two point adjust volume</string>
+    <string name="hct_title_two_point_adjust_volume_mark">Two fingers at the same time the lower or upper sliding adjust volume</string>
+    <string name="hct_title_double_click_lock">Double tap to lock screen</string>
+    <string name="hct_title_double_click_lock_mark">Double tap the home key at any interface to lock the screen</string>
+    <string name="hct_title_gesture_motion">Gesture motion</string>
+    <string name="hct_title_telephony_motion">Telephony Motion</string>
+    <string name="hct_title_telephony_motion_mark">Flip to mute,Answer by swing</string>
+    <string name="hct_title_system_motion">System Motion</string> 
+    <string name="hct_title_system_motion_mark">Double tap to lock</string>
+    <string name="hct_alarm_turn_silence">Turn to alarm silence</string>
+    <string name="hct_alarm_turn_silence_mark">Silent the alarm by turn the phone</string>
+    <string name="hct_title_turn_silence">Turn to silence</string>
+    <string name="hct_title_turn_silence_mark">Silent the call by turn the phone</string>
+    <string name="hct_title_smart_answer">Smart answer</string>
+    <string name="hct_title_smart_answer_mark">Put phone close to ear to answer</string>
+    <string name="hct_title_answer_by_swing">Answer by swing</string>
+    <string name="hct_title_answer_by_swing_mark">Answer the call by swing when incoming call</string>
+    <string name="hct_title_smart_switch">Smart switch</string>
+    <string name="hct_title_smart_switch_mark">Put phone close to ear to turn off the speaker</string>
+    <string name="hct_title_system_motion_mark2">Double tap the home key at any interface to lock the screen</string>
+    <!--add by fenghuan for 三指上划分屏-->
+    <string name="hct_title_three_point_splitscreen_mark">Swipe up with three fingers to quickly split the screen</string>
+    <string name="hct_title_three_point_splitscreen">Three point splitscreen</string>
+    <!--add by fenghuan for 三指上划分屏-->
+    <!-- add for Gesture settings . hct.zhouzhigang 20141024 -end -->
+
+    <!-- added by hct lijunyi, 2017-08-24, for change lockscreen background random -->
+    <string name="random_change_lockscreen_title">"Random Change Lockscreen"</string>
+    <string name="random_change_lockscreen_summary">"Random Change Lockscreen"</string>
+    <!-- end of added by hct lijunyi, 2017-08-24, for change lockscreen background random -->
+
+    <!-- added by hct lijunyi, 2018-01-17, NextGestureDetector -->
+    <string name="accessibility_gesture_preference_title">Gesture</string>
+    <string name="accessibility_somatosensory_preference_title">Smart somatosensory</string>
+
+    <string name="accessibility_toggle_gallery_preference_title">Gallery</string>
+    <string name="accessibility_toggle_gallery_preference_summary">move between pictures</string>
+    <string name="accessibility_toggle_music_preference_title">Music Player</string>
+    <string name="accessibility_toggle_music_preference_summary">move between songs</string>
+    <string name="accessibility_toggle_camera_preference_title">Camera</string>
+    <string name="accessibility_toggle_camera_preference_summary">"in camera,the phone will hand waving distance sensor location, the phone will automatically take a photo"</string>
+    <string name="accessibility_toggle_launcher_preference_title">Launcher</string>
+    <string name="accessibility_toggle_launcher_preference_summary">"in launcher,the phone will hand waving distance sensor location,the phone will move to next page"</string>
+    <string name="accessibility_toggle_lockscreen_preference_title">Unlock</string>
+    <string name="accessibility_toggle_lockscreen_preference_summary">In the locked screen, the phone will hand waving distance sensor location, the phone will automatically unlock standby interface</string>
+
+    <string name="accessibility_toggle_mmsdial_preference_title">SMS somatosensory dial</string>
+    <string name="accessibility_toggle_mmsdial_preference_summary">In MMS View, pick up the phone to your face can directly dial the contact\'s phone</string>
+    <string name="accessibility_toggle_contactdial_preference_title">Contact dialing by somatosensory </string>
+    <string name="accessibility_toggle_contactdial_preference_summary">In contacts interface,  keep face close to device make dial automatically</string>
+    <string name="accessibility_toggle_autoanswer_preference_title">Call Answering Car</string>
+    <string name="accessibility_toggle_autoanswer_preference_summary">Call, the palm of the phone distance sensor position for two seconds, the phone automatically answer the call</string>
+    <!-- end of added by hct lijunyi, 2018-01-17, NextGestureDetector -->
+
+    <!-- added by lct lijunyi, 2017-03-06, for Support Ringtone && Vibrate for SIM2 -->
+    <string name="ringtone_title_sim1_tcl">Sim 1 ringtone</string>
+    <string name="ringtone_title_sim2_tcl">Sim 2 ringtone</string>
+
+    <string name="vibrate_when_ringing_title_sim1_tcl">also vibrate for Sim 1 calls</string>
+    <string name="vibrate_when_ringing_title_sim2_tcl">also vibrate for Sim 2 calls</string>
+    <!-- end of added by lct lijunyi, 2017-03-06, for Support Ringtone && Vibrate for SIM2 -->
+    <!--add by hct-zhangcy for fast camera and video recorder-->
+    <string name="hct_fast_camera_video_title">Fast Capture</string>
+    <string name="hct_fast_camera_video_summary">Off screen state,double the volume up or volume down to take pictures</string>
+    <string name="hct_disable_quick_open_camera_summary">Turn on the flash to disable double-tap to turn on the camera function</string>
+    <string name="hct_disable_quick_open_camera_title">Warning!</string>
+    <string name="hct_disable_quick_open_camera_ok">OK</string>
+    <string name="hct_disable_quick_open_camera_cancel">Cancel</string>
+    <!--add by hct-zhangcy for fast camera and video recorder-->
+    <!--daoge custom-->
+    <string name="device_info_baseband">DOOGEE-S70.20180301</string>
+    <string name="device_info_kernel">4.4.95+ DOOGEEinfo@doogee.cc20180301</string>
+    <string name="daogeui_verno">DoogeeOS version</string>
+    <string name="summary_daogeui_verno">V2.0.0</string>
+    <!-- hct lishuo add  for reset low battery level warning at 2018-3-14-->
+    <string name="reset_low_battery_tip">Battery Low,Please keep Battery above 30 percentage.</string>
+    <!-- hct lishuo add  for reset low battery level warning at 2018-3-14 end-->
+    <!-- hct  add scancode 2018-3-14-->
+    <string name="settings_scancode_hct">ScanCode</string>
+    <!-- hct  add scancode 2018-3-14-->
+    <!-- add 20180322 Modify according to customer requirements FAKE RAM display-->
+    <string name="hct_config_fake_ram_string">"6.0 GB"</string>
+    <!-- add 20180322 Modify according to customer requirements FAKE RAM display-->
+    <!--wzp  add 2018-3-27 -->
+     <string name="open_double_cam_toast_show">Open this function to affect the three point power button emergency dialing.</string>
+   <!--wzp  add  2018-3-27-->
+
+   <!--modify by wzp custom_dateview_ui_format -->
+   <string name="custom_dateview_ui_format">dd/MM/yyyy</string>
+ <!--modify by wzp custom_dateview_ui_format -->
+<!-- wzp add power management battery turbo -->
+   <string name="battery_turbo">Turbo Battery</string>
+<!-- wzp add power management battery turbo -->
+
+     <!-- hct-lishuo for background clean memory begin. -->
+   <string name="str_auto_clean_memory_title">"Background auto clean memory"</string>
+   <string name="str_auto_clean_memory_summary">"Few seconds after screen off, do automatic clean-up memory operation"</string>
+   <!-- hct-lishuo for background clean memory end. -->
+
+    <!-- add by wangshuoshuo for custom string -->
+    <string name="custom_bluetooth">Already Started</string>
+    <!-- end by wangshuoshuo -->
+    
+    <!--hct cuiluhao modify bluetooth connection summary start-->
+    <string name="bluetooth_on_summary">On</string>
+    <!--hct cuiluhao modify bluetooth connection summary end-->
+    <string name="summary_hardware_revision">HCT-M319MB-A2</string>
+
+    <!--hct wzp modify 20180601 -->
+    <string name="custom_security_patch_pref">April 5, 2018</string>
+    <!-- hct ouyang one key upgeade -->
+    <string name="hct_one_key_upgrade_title">One key upgrade</string>
+    <string name="notification_wakeup_title">Notification Wake Up</string>
+   <string name="notification_wakeup_summary">When receiving a push notification,screen wake up!</string>
+
+    <!-- add by wangshuoshuo for translate -->
+    <string name="backup_configure_account_summary">Backing up to debug-only private cache</string>
+    <!-- end by wangshuoshuo -->
+    <!-- @{ hct.zhangningyu, 20180711, add for quick flash. -->
+    <string name="hct_quick_flashlight_title">Quick Flashlight</string>
+    <string name="hct_quick_flashlight_summary">Locked bright screen interface long press the HOME key to open the flashlight</string>
+    <!-- }@ -->
+    <!-- @{ hct.zhangningyu, 20180711, add for the custom function of sos key. -->
+    <string name="hct_custom_key_function">Custom Key Function</string>
+    <string name="hct_custom_key_function_switch">Custom Key Function Switch</string>
+    <string name="hct_function_of_long_press_sos_key">The Function Of Long Press Custom Key</string>
+    <string name="hct_sos_mode">Sos Mode</string>
+    <string name="hct_sos_key_open_sos">long press custom key to open SOS.</string>
+    <string name="hct_game_mode">Game Mode</string>
+    <string name="hct_sos_key_open_game_mode">long press custom key to open game mode.</string>
+    <string name="hct_custom_mode">Custom Mode</string>
+    <string name="hct_sos_key_open_custom_mode">long press custom key to open custom mode.</string>
+    <string name="hct_custom_open_app">Custom Open APP</string>
+    <string name="hct_custom_open_app_message">click to select the app to open.</string>
+    <string name="hct_select_custom_open_app">Select Custom Open APP</string>
+    <string name="hct_sos_mode_tips">Using the SOS function, please confirm whether the switch of "Settings->System->SOS Call" is open.</string>
+    <!-- }@ -->
+    <!-- @{ hct.zhangningyu, 20180720, add for side key custom. -->
+    <string name="side_key_short_press">Custom Key - Short Press</string>
+    <string name="side_key_short_press_switch">Short Press Switch</string>
+    <string name="side_key_short_press_switch_summary">short press custom key to open selected app.</string>
+    <string name="side_key_short_press_app">Short Press APP</string>
+    <string name="side_key_double_click">Custom Key - Double Click</string>
+    <string name="side_key_double_click_switch">Double Click Switch</string>
+    <string name="side_key_double_click_switch_summary">double click custom key to open selected app.</string>
+    <string name="side_key_double_click_app">Double Click APP</string>
+    <string name="side_key_long_press">Custom Key - Long Press</string>
+    <string name="side_key_long_press_switch">Long Press Switch</string>
+    <string name="side_key_long_press_switch_summary">long press custom key to open selected mode.</string>
+    <string name="side_key_select_app">click to select the app to open.</string>
+    <string name="side_key_do_not_disturb_mode">Do Not Disturb Mode</string>
+    <string name="side_key_do_not_disturb_mode_summary">long press custom key to open/close do not disturb mode.</string>
+    <string name="side_key_torch_mode">Torch Mode</string>
+    <string name="side_key_torch_mode_summary">long press custom key to open/close torch.</string>
+    <string name="side_key_emergency_call_mode">Emergency Call Mode</string>
+    <string name="side_key_emergency_call_contact">Emergency Contact</string>
+    <string name="side_key_select_contact">click to select the contact.</string>
+    <string name="side_key_sos_light_mode">SOS Light Mode</string>
+    <string name="side_key_sos_light_mode_summary">long press custom key to open/close SOS light.</string>
+    <string name="side_key_sos_clear_memory_mode">Clear Merory Mode</string>
+    <!-- }@ -->
+    
+    <!-- hct liuyang modify for notchscreen black statusbar begin -->
+    <string name="notchscreen_black_stb_settings_title">Top screen dislpay</string>
+    <string name="notchscreen_black_stb_default_title">Default</string>
+    <string name="notchscreen_black_stb_default_summary">In order to apply auto matching to the top display, use screen space as much as possible, and the content is not blocked.</string>
+    <string name="notchscreen_black_stb_black_title">Hide screen top</string>
+    <string name="notchscreen_black_stb_black_summary">The top of the screen is not display.</string>
+    <!-- hct liuyang modify for notchscreen black statusbar end -->
+
+    <!-- start, wangsenhao, restore the factory settings dialog, 2018.08.03 -->
+    <string name="low_battery_dialog_title">Warning!</string>
+    <string name="low_battery_value_dialog_txt">The battery is below 30%. Are you sure you want to restore the factory settings?</string>
+    <!-- end, wangsenhao, restore the factory settings dialog, 2018.08.03 -->
+    
+    <!-- ouqi custom string -->
+    <string name="ouqi_model">C11_PRO</string>
+    <string name="ouqi_android_version">8.1</string>
+    <string name="ouqi_storage">Total ROM</string>
+    <string name="ouqi_ram">Total RAM</string>
+    <string name="ouqi_total_storage">16.00 GB</string>
+    <string name="ouqi_total_ram">3.00 GB</string>
+    <string name="ouqi_screen_inches">Screen size</string>
+    <string name="ouqi_screen_inches_info">5.45 inches</string>
+    <string name="ouqi_display_size">Display size</string>
+    <string name="ouqi_display_size_info">480x960</string>
+    <string name="ouqi_back_camera">Main camera</string>
+    <string name="ouqi_back_camera_info">8 MP</string>
+    <string name="ouqi_front_camera">front camera</string>
+    <string name="ouqi_front_camera_info">2 MP</string>
+    
+    <!-- ouqi custom string -->
+    <!-- add by liuyi at 20180813 for s179 kallery -->
+    <string name="fcc_kallery_title">Certificates</string>
+    <string name="device_info">Device name</string>
+    <string name="summary_device">SFT57216</string>
+    <!--add by fangkou for set date format 20180816-->
+    <string name="data_format_tilte">"Choose date format"</string>
+    <string name="data_format_default_value">10</string>
+
+    <string name="settings_sport_mode">Performance Mode</string>
+    <string name="settings_sport_mode_summary">Turning this mode on will cause excessive power consumption. Please turn it on when using a large application.</string>
+    <!-- @{ hct.zhangningyu, 20181101, add for fingerprint. -->
+    <string name="hct_security_settings_fingerprint_enroll_disclaimer">In addition to unlocking your phone, you can also use your fingerprint to authorize purchases and app access. <annotation id="url"></annotation></string>
+    <string name="hct_security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled">
+        The screen lock option is disabled. To learn more, contact your organization\'s admin.
+        <annotation id="admin_details"></annotation>\n\nYou can still use your
+        fingerprint to authorize purchases and app access.
+        <annotation id="url"></annotation></string>
+    <!-- @} -->
+    <!-- @{ hct.zhangningyu, 20190103, add for side fingerprint. -->
+    <string name="hct_side_security_settings_fingerprint_enroll_find_sensor_message">It\u2019s on the side of your phone. Use your finger.</string>
+    <!-- @} -->
+    <!-- @{ hct.zhangningyu, 20180724, add for smartkey. -->
+    <string name="smart_key_title">"Side Key Function"</string>
+    <string name="smart_key_btn_one_title">"Shortcuts"</string>
+    <string name="smart_key_btn_two_title">"Open the app"</string>
+    <string name="smart_key_click_title">"One Click"</string>
+    <string name="smart_key_double_click_title">"Double Click"</string>
+    <string name="smart_key_long_click_title">"Long Press"</string>
+    <string name="smart_key_no_operation_title">"No operation"</string>
+    <string name="smart_key_off_screen_snapshot_title">"Off screen snapshot"</string>
+    <string name="smart_key_soundrecord_title">"Start Soundrecording"</string>
+    <string name="smart_key_open_flashlight_title">"Open flashlight"</string>
+    <string name="smart_key_snap_screen_title">"Screenshots"</string>
+    <string name="smart_key_select_app">Select App</string>
+    <string name="smart_key_open_zello_title">Open PTT</string>
+    <string name="smart_key_open_sos_title">Open SOS</string>
+    <string name="smart_key_open_water_camera">Open UnderWater Camera</string>
+    <string name="smart_key_open_game_mode">Open Game Mode</string>
+    <string name="gesture_unlock">Gesture Unlock</string>
+    <string name="smark_key_open_sos_tips_settings">The SOS function is closed, please set up the SOS function in the settings.</string>
+    <string name="smark_key_open_sos_tips">SOS function is off now, please turn on the function on the desktop.</string>
+    <!-- }@ -->
+    <!-- @{ hct.zhangningyu, 20190110, add for raise wrist wakeup settings. -->
+    <string name="settings_raise_wrist_wakeup_title">Raise Wrist Wakeup Screen</string>
+    <string name="settings_raise_wrist_wakeup_preference_title">Raise Wrist Wakeup Screen</string>
+    <string name="settings_raise_wrist_wakeup_summary">raise wrist wakeup screen</string>
+    <string name="settings_raise_wrist_wakeup_function_summary">Note: In the open state, raise wrist wakeup screen.</string>
+    <!-- @} -->
+    
+    <string name="wifi_p2p_null_name_message">Can not be null</string>
+    <string name="network_control_settings_title">network control</string>
+    
+        <string name="hct_inches_title">Screen size</string>
+    <string name="hct_inches_summary"></string>
+    <string name="hct_display_title">Display size</string>
+    <string name="hct_display_summary"></string>
+    <string name="hct_maincamera_title">Main camera</string>
+    <string name="hct_maincamera_summary"></string>
+    <string name="hct_subcamera_title">Front camera</string>
+    <string name="hct_subcamera_summary"></string>
+    <string name="hct_allcamera_title">Camera</string>
+    <string name="hct_allcamera_summary"></string>
+            <!-- @{ hct.zhangningyu, 20180703, for activate emergency call by long press volume down or volume up. -->
+        <string name="emergency_title">Emergency rescue</string>
+    <string name="emergency_contact_title">Emergency Contact Person</string>
+    <string name="emergency_contact_message">In the case of screen off, long press the volume up or down button to call the emergency contact. </string>
+    <string name="emergency_contact_switch">Emergency Contact Switch</string>
+    <string name="emergency_contact_one">Contact One (volume up)</string>
+    <string name="emergency_contact_one_message">Click to set contact one, Call contact one by long press volume up.</string>
+    <string name="emergency_contact_two">Contact Two (volume down)</string>
+    <string name="emergency_contact_two_message">Click to set contact two, Call contact two by long press volume down.</string>
+    <string name="emergency_contact_tiips">More than one contact is selected, and only one person is reserved.</string>
+    <!-- }@ -->
+
+    <!-- hct.sjt, 2019-03-28, add for two language diaplay in list start.-->
+    <string name="hct_show_two_language_locale"></string>
+    <!-- hct.sjt, 2019-03-28, add for two language diaplay in list end.-->
+    
+    <!-- kernel baseband  if this string !=null show this-->
+    <string name="hct_kernel_version"></string>
+    <string name="hct_baseband_version"></string>
+    <!-- kernel baseband  if this string !=null show this-->
+    
+    <string name="hct_toast_close_simcard">Mobile data disconnected</string>
+
+    <string name="hct_green_environmental_protection_title">Green Environmental Protection</string>
+
+    <!-- liuyang add for opp navbar styel begin -->
+    <string name="hct_oppo_navbar_title">Navigationbar</string>
+    <string name="hct_oppo_navbar_type">Navigationbar mode</string>
+    <string name="hct_oppo_navbar_key">Virtual key navigation</string>
+    <string name="hct_oppo_navbar_gesture">Upstroke gesture navigation</string>
+    <string name="hct_oppo_navbar_key_layout">Choose your favorite key layout</string>
+    <string name="hct_oppo_navbar_gesture_layout">Choose your favorite gesture layout</string>
+
+    <string name="hct_oppo_navbar_gesture_mode1">1.Back on both sides</string>
+    <string name="hct_oppo_navbar_gesture_mode2">2.Back on both right</string>
+    <string name="hct_oppo_navbar_gesture_mode3">3.Back on both left</string>
+    <string name="hct_oppo_navbar_gesture_mode4">4.Simple gesture</string>
+    <string name="hct_oppo_navbar_gesture_back">Up slide go back</string>
+    <string name="hct_oppo_navbar_gesture_home">Up slide to home</string>
+    <string name="hct_oppo_navbar_gesture_recent">Up slide show recent</string>
+    <string name="hct_oppo_navbar_gesture_stay_recent">Up stay show recent</string>
+    <string name="hct_oppo_navbar_gesture_hide">Hidden gesture indicator</string>
+    <string name="hct_oppo_navbar_gesture_landscape">Prevent mistakenly touching in full screen</string>
+    <string name="hct_oppo_navbar_gesture_landscape_summary">When full screen, the gesture navigation needs to draw the indicator bar first, then slide again to take effect.</string>
+    <!-- liuyang add for opp navbar styel end -->
+
+    <!-- HCT lishuo Keyguard: pattern lock remove fade -->
+    <string name="show_trail">Display trail</string>
+    <string name="show_trail_summary">Display trail when pattern unlock</string>
+    <!-- HCT lishuo Keyguard: pattern lock remove fade -->
+    
+    <string name="simple_mode_title">Simple mode</string>
+
+    <!-- HCT lishuo Keyguard: network speed -->
+    <string name="network_speed">Real-time network speed</string>
+    <string name="network_speed_summary">Show real-time Network Speed in status bar</string>
+    <!-- HCT lishuo Keyguard: network speed end-->
+    
+    <!-- add by wangshuoshuo for vibrate when call connected -->
+    <string name="vibrate_when_connected_title">Answer vibration</string>
+    <string name="vibrate_when_connected_summary">Vibrate when call connected</string>
+    <!-- end by wangshuoshuo -->
+    <string name="hct_hd_double_tap_power_title">Double tap power open</string>
+   
+    <!-- start, wangsenhao, for functions tab, 2019.10.29 -->
+    <string name="tab_text_settings">Settings</string>
+    <string name="tab_text_function">Function</string>
+    <string name="homepage_function_smartkey_title">Smart Key</string>
+    <string name="homepage_function_childmode_title">Child Mode</string>
+    <string name="homepage_function_codescan_title">QRCode Scan</string>
+    <string name="homepage_function_mirror_title">Mirror</string>
+    <string name="homepage_function_smarttouch_title">Smart Touch</string>
+    <!-- end, wangsenhao, for functions tab, 2019.10.29 -->
+    <!--hct.lining, 20191109, add for side fingerprint. -->
+    <string name="hct_security_settings_fingerprint_enroll_touch_dialog_message">Touch the sensor on the side of your phone. Use your index finger.</string>
+    <!--hct.lining, 20191109, add for side fingerprint. --> 
+    
+     <!--hct cuiluhao add custom device info start-->
+     <string name="hct_rom_title">ROM</string>
+     <string name="hct_ram_title">RAM</string>
+     <!--hct cuiluhao add custom device info end-->
+     
+     <!--hct cuiluhao add timer close bt scanning-->
+     <string name="hct_bluetooth_scanning">Scanning</string>
+     <!--hct cuiluhao add timer close bt scanning-->
+     
+     <!--hct cuiluhao remove fota to system dashboard-->
+     <string name="fota_updates_preference_title">System Update</string>
+     <!--hct cuiluhao remove fota to system dashboard-->
+
+    <!-- hct lishuo for add screen record control -->
+    <string name="settings_screenrecord_lable">ScreenRecord</string>
+    <string name="screenrecord_mic_label">Record voiceover</string>
+    <string name="screenrecord_microphone_label">"Microphone"</string>
+    <string name="screenrecord_microphone_label_note">"Recording microphone sound"</string>
+    <string name="screenrecord_taps_label">Show taps</string>
+    <string name="screenrecord_taps_label_note">"Small white dots are displayed where the fingers Click"</string>
+    <!-- hct lishuo for add screen record control end-->
+    
+    <string name="smart_wifi_select_title">"Intelligent selection of the best WLAN network"</string>
+    <string name="smart_wifi_select_title_summary">"Intelligently select and connect to the best WLAN network by detecting the WLAN network quality"</string>
+    <string name="smart_wifi_dlg_title">"When connected WIFI signal is weak, auto connect strong WIFI signal?"</string>
+
+    <string name="aggressive_handover_title">"Automatically switch mobile networks"</string>
+    <string name="aggressive_handover_summary">"When the quality of all WLAN networks is poor, and the mobile data switch is on, the mobile network is automatically switched to."</string>
+    <string name="aggressive_handover_dlg">"Auto switch to mobile data when WLAN network quality is poor"</string>
+    <!-- add by wangshuoshuo for move gesture to gesture motion -->
+    <string name="system_dashboard_remove_gesture_summary">Languages, time, backup</string>
+    <!-- end by wangshuoshuo -->
+    
+    <string name="hct_certification_title">Regulation and certification</string>
+
+    <!--add by fenghuan for batterysaver dialog 2020-0512-->
+    <string name="hct_battery_saver_message">"Turn on battery saver mode ?"</string>
+    <!--add by fenghuan for batterysaver dialog 2020-0512 end-->
+    
+    <string name="hct_modify_modeltext"></string>
+    
+    <string name="hct_bt_scanning_delaystop_toast" product="default">Bluetooth scanning stops after <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+
+    <string name="hct_suw_title">System navigation</string>
+    <string name="hct_suw_gestural">Gestural navigation</string>
+    <string name="hct_suw_3buttons">3-buttons navigation</string>
+    <string name="hct_suw_next">Next</string>         
+    
+    <!--hct cuiluhao add modify build number-->
+    <string name="hct_modify_build_number"></string>  
+    <!--hct cuiluhao add modify build number--> 
+    <!-- lining add zf key setting start -->
+    <string name="zf_key_title">Custom Keys</string>
+    <string name="zfkey_double_power_title">Power</string>
+    <string name="zfkey_ptt_title">PTT</string>
+    <string name="zfkey_sos_title">SOS</string>
+    <string name="zfkey_camera_title">CAMERA</string>
+    <string name="zfkey_fn_title">FN</string>
+    <string name="zfkey_summary_key">Key mode</string>
+    <string name="zfkey_summary_broadcast">Broadcast mode</string>
+    <!-- lining add zf key setting end -->  
+    
+    <string name="hct_function_otg_connected">OTG</string>
+    <string name="hct_function_otg_summary">Allow external devices to be mounted</string>
+        <string name="gloves_mode_title">Gloves mode</string>
+    <string name="gloves_mode_summary">After enabling this mode,swipe on the screen when you\'re wearing gloves to activate</string>
+    <string name="hct_turnoff_gesture">Turn on Screen off Display. pls turn off Gesture WakeUp before it works</string>  
+    <string name="hct_turnoff_doze">Turn on Gesture WakeUp. pls turn off Screen off Display before it works</string>  
+
+    <!-- HCT.chris -->
+    <string name="ringtone1_title">Sim 1 ringtone</string>
+    <string name="ringtone2_title">Sim 2 ringtone</string>
+    <!--add by fenghuan for ice mode-->
+    <string name="icemode_switch_title">Ice Mode</string>
+    <string name="icemode_switch_summary">Allow low temperature mode to be automatically turned on when the detection temperature is lower than -15°C</string>
+    <!--add by fenghuan for ice mode end-->
+    <!--hct-fangkou add for calendar and deskclock translation start 20200610-->
+    <string name="hct_default_channel">"Default channel"</string>
+    <string name="hct_mute_channel">"Mute channel"</string>
+    <string name="hct_def_notify">"Default Notifications"</string>
+    <string name="hct_expire_event_notify">"Event Expire Notifications"</string>
+    <!--hct-fangkou add for calendar and deskclock translation end 20200610-->
+    <!--add by fenghuan for superpowersave switch-->
+    <string name="hct_powersaver_title">Super PowerSave Mode</string>
+    <string name="hct_powersaver_summary">Switch to powersave launcher and abandon another application</string>
+    <!--add by fenghuan for superpowersave switch-->
+    <!--hct fenghuan add superlight support 2019-1211-->
+    <string name="hct_superlight_title">External Light</string>
+    <string name="super_light_switch">External Light Switch</string>
+    <string name="super_light_switch_summary">Open switch to Allow External Light</string>
+    <string name="super_light_summary_guide">Long click left down key switch on or off , Single click switch mode</string>
+    <string name="super_light_summary_note">Note:</string>
+    <string name="super_light_summary_one">1.The External light line is too strong, do not look directly to avoid injury.</string>
+    <string name="super_light_summary_two">2.When the External light is turned on, the light will generate a large amount of heat. Do not cover the bulb and pay attention to heat dissipation.</string>
+    <string name="super_light_summary_three">3.The External light consumes a lot of power. Do not turn it on for a long time to avoid affecting the battery life of the device.</string>
+    <!--hct fenghuan add superlight support 2019-1211-->
+    <!-- lining add honywell scan 2020.08.04 -->
+    <string name="smart_key_title_summary">Cannot scan after opening.</string>
+
+    <!--  HCT.chris Custom network type -->
+    <string name="network_3G_preferred">3G preferred</string>
+    <string name="network_3G_only">3G only</string>
+    <string name="network_2G_only">2G only</string>
+
+    <!-- hct liuyang add for battery advanced settings begin -->
+    <string name="help_url_battery_advanced_settings" translatable="false"></string>
+    <string name="battery_advanced_title">Advanced settings</string>
+    <string name="battery_advanced_wakelock">Deep sleep when screen off</string>
+    <string name="battery_advanced_wakelock_dec">When on, disable the app notification frequently lighting the screen</string>
+    <string name="battery_advanced_screenoff_clean">Stop application when screen off</string>
+    <string name="battery_advanced_screenoff_clean_dec">When on, close the background application after 5 minutes of screen off</string>
+    <string name="battery_advanced_wake_alignment">Synchronized heartbeat</string>
+    <string name="battery_advanced_optimization">Battery optimization</string>
+    <string name="switch_on_text">On</string>
+    <string name="switch_off_text">Off</string>
+    <!-- hct liuyang add for battery advanced settings end -->
+    
+    <!--hct cuiluhao add new style settings-->
+    <string name="hct_simcard_and_mobile_data">Sim card &amp; mobile data</string>
+    
+    <string name="hct_other_wirless_connect">Other Wireless Connections</string>
+    <!--hct cuiluhao add new style settings-->
+    <!--hct cuiluhao add onehand and easymode in function-->
+    <string name="homepage_function_easylauncher_title">Easy mode</string>
+    <string name="homepage_function_onehandmode_title">One hand mode</string>
+    <string name="onehandmode_preference_title">Open switch to start one-hand mode</string>
+    <!--hct cuiluhao add onehand and easymode in function-->
+    <string name="select_network_mode_title">5G Mode</string>
+    <string name="hct_selectmode_auto">Auto Mode</string>
+    <string name="hct_selectmode_nsa">NSA Mode</string>
+    <string name="hct_selectmode_sansa">SA+NSA Mode</string>
+
+    <!-- hct.wangsenhao, install app by password @{ -->
+    <string name="install_app_input_password_title">Please  the password</string>
+    <string name="uninstall_app_input_password_title">Please enter the password</string>
+    <string name="install_app_input_password_true">Password is Correct</string>
+    <string name="install_app_input_password_false">Password is not Correct，please enter again.</string>
+    <string name="install_password_settings_title">Change password</string>
+    <string name="install_password_settings_summary">Change password</string>
+    <string name="install_password_change_success">Password changed successfully</string>
+    <string name="install_password_settings_old_password">Please enter original password</string>
+    <string name="install_password_settings_new_password">Please enter new password</string>
+    <!-- }@ hct.wangsenhao -->
+</resources>

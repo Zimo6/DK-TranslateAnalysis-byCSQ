@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--huzhengk  start Add Portuguese translation of gesture somatosensory in Settings-->
+    <string name="hct_title_gesture_motion">Movimento do gesto</string>
+    <string name="hct_title_telephony_motion">Movimento do Telemóvel</string>
+    <string name="hct_title_system_motion">Movimento do sistema</string>
+    <string name="hct_title_system_gesture">Gesto do sistema</string>
+    <string name="hct_title_turn_silence">Virar para silenciar</string>
+    <string name="hct_title_turn_silence_mark">Silenciar o toque da chamada virando o telemóvel</string>
+    <string name="hct_title_two_point_adjust_volume">Dois pontos de ajuste de volume</string>
+    <string name="hct_title_two_point_adjust_volume_mark">Deslize dois dedos ao mesmo tempo para cima ou baixo para ajustar o volume</string>
+    <string name="hct_title_double_click_lock">Toque duas vezes para bloquear a tela</string>
+    <string name="hct_title_double_click_lock_mark">Toque duas vezes na tecla home em qualquer janela para bloquear a tela</string>
+    <string name="hct_title_system_motion_mark2">Toque duas vezes na tecla home em qualquer janela para bloquear a tela</string>
+    <string name="hct_title_system_motion_mark">Toque duas vezes para bloquear a tela</string>
+    <string name="accessibility_toggle_camera_preference_title">Câmera</string>
+    <string name="accessibility_toggle_camera_preference_summary">Tirar Fotos</string>
+    <string name="accessibility_toggle_music_preference_title">Leitor de música</string>
+    <string name="accessibility_toggle_music_preference_summary">mover entre músicas</string>
+    <string name="accessibility_toggle_lockscreen_preference_title">Desbloquear</string>
+    <string name="accessibility_toggle_lockscreen_preference_summary">Na tela bloqueada, acene a mão no sensor de distância, o telemóvel irá desbloquear automaticamente</string>
+    <string name="accessibility_somatosensory_preference_title">Sensações inteligentes</string>
+    <string name="tab_text_settings">"Definir"</string>
+    <string name="hct_bluetooth_scanning">"Pesquisar"</string>
+    <string name="hct_suw_next">"Avançar"</string>
+</resources>

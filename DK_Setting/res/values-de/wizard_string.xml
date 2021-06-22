@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Nutzungserklärungen und Zusicherungen</string>
+    <string name="privacy_tips">Bitte lesen Sie die folgenden Bedingungen sorgfältig durch, bevor Sie das Doke-Telefon verwenden. Klicken Sie auf den Titel, um die Datei zum Lesen zu öffnen. Die Verwendung von Doke-Geräten bedeutet, dass Sie die „ Datenschutzbestimmungen“ gelesen haben und mit der „Benutzerlizenzvereinbarung“ einverstanden sind.</string>
+    <string name="privacy_policy_tile">Datenschutzbestimmungen</string>
+    <string name="privacy_license_tile">Benutzerlizenzvereinbarung</string>
+    <string name="privacy_agree_tile">Ich habe die oben aufgeführten Nutzungsbedingungen gelesen und bin damit akzeptieren</string>
+    <string name="privacy_button_agree">Zustimmt</string>
+    <string name="privacy_dialog_close">Schließen</string>
+
+    <string name="wizard_navigation_title">Navigationsart auswählen</string>
+    <string name="wizard_navigation_gesture">Navigation per Geste</string>
+    <string name="wizard_navigation_three_button">Navigation per drei Tasten</string>
+    <string name="wizard_navigation_next">"Weiter"</string>
+</resources>

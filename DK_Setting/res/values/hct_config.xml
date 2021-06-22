@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- hct liuyang modify for led control begin bv sunyue modify true 20210223-->
+    <bool name="hct_config_show_led_settings">true</bool>
+    <!-- hct liuyang modify for led control end -->
+
+    <!-- liuyang modify for hide navigation bar -->
+    <bool name="hct_navbar_show_hide_icon">false</bool>
+    <!-- liuyang modify for hide navigation bar end -->
+
+    <!-- start, wangsenhao, for functions tab, 2019.10.29 -->
+    <bool name="config_is_support_functionstab">false</bool>
+    <!-- end, wangsenhao, for functions tab, 2019.10.29 -->
+    <!-- hct sjt add for gesture motion at 2018-08-13 start -->
+    <bool name="config_hct_gesture_motion">false</bool>
+    <bool name="config_hct_remove_threepointscreenshot">false</bool>
+    <bool name="config_hct_remove_clipscreen">false</bool>
+    <bool name="config_hct_remove_threepointentrycamera">false</bool>
+    <!--bv sunyue modify for design start 20210225-->
+<!--    <bool name="config_hct_remove_doubleclick">false</bool>-->
+    <bool name="config_hct_remove_doubleclick">true</bool>
+<!--    <bool name="config_hct_remove_twopoint_volume">false</bool>-->
+    <bool name="config_hct_remove_twopoint_volume">true</bool>
+    <bool name="config_remove_toggle_unlock">true</bool>
+    <!--bv sunyue modify for design end 20210225-->
+    <bool name="config_hct_remove_turn_alarm_silence">true</bool>
+
+    <bool name="config_remove_tele_motion">false</bool>
+    <bool name="config_hct_remove_turnsilen">false</bool>
+    <bool name="config_hct_remove_mflitanswer">true</bool>
+    <bool name="config_hct_remove_answerswing">true</bool>
+
+    <bool name="config_remove_system_motion">false</bool>
+    <bool name="config_remove_smart_gesture">false</bool>
+    <bool name="config_remove_gesture_gallery">true</bool>
+    <bool name="config_remove_gesture_music">true</bool>
+    <bool name="config_remove_gesture_sms">true</bool>
+    <bool name="config_remove_gesture_camera">true</bool>
+    <bool name="config_remove_gesture_launcher">true</bool>
+     <!-- hct sjt add for gesture motion at 2018-08-13 end -->
+    <!-- HCT, lishuo, for gesturewake-->
+    <bool name="hct_config_remove_gesturewake">false</bool>
+    <bool name="hct_config_remove_camera_app_when_faceunlock">false</bool>
+    <bool name="remove_gesture_Music">false</bool>
+    <!-- HCT, lishuo, for gesturewake-->
+    
+    <!-- add by wangshuoshuo for can't reset when battery up to limit -->
+    <bool name="config_not_reset_when_low_battery">true</bool>
+    <integer name="custom_reset_battery_limit">30</integer>
+    <!-- end by wangshuoshuo -->
+    <!-- @{ hct.zhangningyu, 20190108, add for hide fingerprint in security. -->
+    <bool name="hct_config_hide_fingerprint_in_security">false</bool>
+    <bool name="hct_config_hide_fingerprint_applock">false</bool>
+    <bool name="config_fingerprint_app_shortcuts_hide_camera">true</bool>
+    <bool name="hct_config_hide_fingerprint_quick_launcher">false</bool>
+    <bool name="fingerprint_hide_menu_all">false</bool>
+    <bool name="fingerprint_hide_menu_back">false</bool>
+    <bool name="fingerprint_hide_menu_music">true</bool>
+    <bool name="fingerprint_hide_menu_video">true</bool>
+    <bool name="fingerprint_hide_menu_home">false</bool>
+    <bool name="fingerprint_hide_menu_recent">false</bool>
+    <bool name="fingerprint_hide_menu_answer">false</bool>
+    <bool name="fingerprint_hide_menu_camera">false</bool>
+    <bool name="config_hct_remove_fingerprint_info">true</bool>
+    <bool name="hct_config_side_fingerprint_location">true</bool>
+    <bool name="hct_config_remove_fingerprint_location_animation">false</bool>
+    <!-- @} -->
+    
+    <!--hct cuiluhao add remove last full charge preference -->
+    <bool name="hct_remove_battery_last_full_charge">true</bool>
+    <!--hct cuiluhao add remove last full charge preference -->
+	<!-- add by liuyi at 20190401 start -->
+    <bool name="hct_config_disable_quickRelative">false</bool>
+    <!-- @} -->
+    
+    <!-- hct cuiluhao add remove battery usedata menu -->
+    <bool name="hct_config_show_battery_use_data">false</bool>
+    <!-- hct cuiluhao add remove battery usedata menu -->
+    
+    <!-- add by wangshuoshuo for hide P2P mode preference -->
+    <bool name="config_hide_p2p_mode_preference">true</bool>
+    <!-- end by wangshuoshuo -->
+    <!-- hct cuiluhao add hct rom ram-->
+    <bool name="hct_show_hct_rom">false</bool>
+    <bool name="hct_show_hct_ram">false</bool>
+    <!-- hct cuiluhao add hct rom ram-->
+
+    <!-- hct lishuo for add screen record control -->
+    <bool name="hct_config_show_screenrecord_settings">true</bool>
+    <!-- hct lishuo for add screen record control end-->
+    <bool name="hct_config_smart_wifi_select">false</bool>
+    <bool name="hct_config_aggressivehandover">false</bool>
+    <!-- add by wangshuoshuo for hide P2P mode preference -->
+    <bool name="config_add_gesture_in_gesture_motion">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- hct cuiluhao add force pass permission Obscured -->
+    <bool name="hct_force_pass_permission">true</bool>
+    <!-- hct cuiluhao add force pass permission Obscured -->
+    
+    <!--hct cuiluhao add remove sound enhance preference-->
+    <bool name="hct_remove_sound_enhance">false</bool>
+    <!--hct cuiluhao add remove sound enhance preference-->
+    
+    <!--hct cuiluhao add lockdown summary no fingerprint-->
+    <bool name="hct_locksummary_remove_fingerprint">false</bool>
+    <!--hct cuiluhao add lockdown summary no fingerprint-->
+    
+    <!-- hct cuiluhao add hct certification -->
+    <bool name="hct_supprot_certification">false</bool>
+    <bool name="hct_supprot_certification_aboutphone">false</bool>
+    <!-- hct cuiluhao add hct certification -->
+    
+    <!-- add by wangshuoshuo for -->
+    <bool name="hct_supprot_certification_ouqi_eu">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- HCT lishuo Keyguard: network speed -->
+    <bool name="hct_config_show_network_speed">true</bool>
+    <!-- HCT lishuo Keyguard: network speed end-->
+    <!-- add by wangshuoshuo for vibrate when call connected -->
+    <bool name="hct_config_call_connected_vibrate">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- add by wangshuoshuo for remove always ask -->
+    <bool name="config_remove_always_ask">false</bool>
+    <bool name="config_remove_selection_required">false</bool>
+    <integer name="default_select_sim_id">-1</integer>
+    <bool name="config_remove_call_always_ask">false</bool>
+    <bool name="config_remove_sms_always_ask">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!--hct cuiluhao add settings homepage custom icon-->
+    <bool name="hct_settings_homepage_icon_change">true</bool>
+    <!--hct cuiluhao add settings homepage custom icon-->
+    
+    <!--hct cuiluhao add remove raise to wakeup-->
+    <bool name="hct_support_raise_wakeup">true</bool>
+    <!--hct cuiluhao add remove raise to wakeup-->
+    <!-- hct cuiluhao add custom logo in about phone-->
+    <bool name="custom_logo_in_aboutphone">false</bool>
+    <!-- hct cuiluhao add custom logo in about phone-->
+    
+    <!-- hct cuiluhao add remove battery time remainning -->
+    <bool name="remove_battery_remaining_time">true</bool>
+    <!-- hct cuiluhao add remove battery time remainning -->
+    
+    <!-- hct cuiluhao remove when to show -->
+    <bool name="hct_remove_when_to_show">true</bool>
+    <!-- hct cuiluhao remove when to show -->
+
+    <!-- HCT.chris default data subscription sim card -->
+    <bool name="config_default_data_subscription">true</bool>
+    
+    <!-- add by wangshuoshuo for show or hide homepage fingerprint preference -->
+    <bool name="config_is_show_homepage_fingerprint">true</bool>
+    <!-- end by wangshuoshuo -->
+    <!-- add by lining for show or hide homepage gloves mode preference -->
+    <bool name="config_is_show_gloves_mode">false</bool>
+    <!-- end by lining -->    
+    <!-- add by wangshuoshuo for remove Location menu in MtkSettings -->
+    <bool name="config_remove_location_menu">false</bool>
+    <!-- end by wangshuoshuo -->
+
+    <!-- modify by songhui for default remove swipe gestural -->
+    <bool name="hct_config_remove_swipe_gestural">true</bool>
+    <!-- modify by songhui for default remove swipe gestural -->    
+    
+    <!--hct cuiluhao add ovrelay color-->
+    <bool name="hct_remove_overlay_color">true</bool>
+    <!--hct cuiluhao add ovrelay color-->
+    
+    <!--hct cuiluhao add remove display size-->
+    <bool name="hct_remove_display_size">false</bool>
+    <!--hct cuiluhao add remove display size-->
+    
+    <!--hct cuiluhao remove add wifi by qr-->
+    <bool name="hct_remove_addnet_qr">true</bool>
+    <!--hct cuiluhao remove add wifi by qr-->
+    
+    <!--hct cuiluhao add gestur navbar to homepage-->
+    <bool name="hct_move_gesture_to_homepage">false</bool>
+    <!--hct cuiluhao add gestur navbar to homepage-->
+    
+    <!-- add by wangshuoshuo for remove Location menu in MtkSettings -->
+    <bool name="config_remove_battery_save_menu">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- hct cuiluhao add remove qr in ssid edit -->
+    <bool name="hct_remove_qr_in_ssidedit">true</bool>
+    <!-- hct cuiluhao add remove qr in ssid edit -->
+    <!--add by fenghuan for powersave switch-->
+    <bool name="hct_superpower_switch_enable">false</bool>
+    <!--add by fenghuan for powersave switch-->
+    
+    <!--hct cuiluhao add action bar immersive mode -->
+    <bool name="hct_setting_immersive_mode">false</bool>
+    
+    <!--hct cuiluhao remove magnification navbar-->
+    <bool name="hct_remove_magnification">false</bool>
+    
+    <!--hct cuiluhao add remove scancode menu in settings -->
+    <bool name="hct_config_remove_scancode">false</bool>
+    <!--hct cuiluhao add remove scancode menu in settings -->
+    
+    <bool name="hct_modify_wifi_icon">false</bool>
+    
+    <!--hct cuiluhao add show real network type-->
+    <bool name="hct_show_4g_newwork_type">true</bool>
+    <!--hct cuiluhao add show real network type-->
+    
+    <bool name="hct_settings_show_row">false</bool>
+    
+    <!--hct cuiluhao add remove pointer stops-->
+    <bool name="hct_remove_pointer_stops">false</bool>
+    <!--hct cuiluhao add remove larger pointer icon-->
+    <bool name="hct_remove_large_pointer_icon">false</bool>
+    
+    <!--hct cuiluhao add remove duraspeed icon-->
+    <bool name="hct_hide_duraspeed">false</bool>
+    
+    <!--hct cuiluhao add remove usb midi menu-->
+    <bool name="hct_remove_usb_midi">false</bool>
+    <!--hct cuiluhao add remove usb midi menu-->
+
+    <!--  HCT.chris Custom network type -->
+    <bool name="hct_config_networks_wcdma_only_no_lte">false</bool>
+    
+    <!-- add by wangshuoshuo for remove usb_details_data_role -->
+    <bool name="config_remove_usb_details_data_role">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!-- add by wangshuoshuo for remove gps menu -->
+    <bool name="config_remove_gps">false</bool>
+    <!-- end by wangshuoshuo -->
+    
+    <!--  hct cuiluhao add show duoke 4.5g -->
+    <bool name="hct_show_dk_4point5g">false</bool>
+    
+    <!--  hct cuiluhao add callvolume min 1 -->
+    <bool name="hct_set_min_callvolume_one">false</bool>
+    
+    <!--  hct cuiluhao add support suggestion card -->
+    <bool name="hct_support_contextual_cards">false</bool>
+    <bool name="hct_define_use_device_mac">false</bool>
+    
+    <!--hct cuiluhao add fota in aboutphone -->
+    <bool name="hct_add_fota_in_aboutphone">false</bool>
+    
+    <!--hct cuiluhao add timer close bt scanning-->
+    <bool name="hct_bluetooth_scanner_toast">true</bool>
+    
+    <!--hct_remove_sim_choise_one_slot-->
+    <bool name="hct_remove_sim_choise_one_slot">false</bool>
+    
+    <!--hct cuiluhao add remove adupt fota when use 3rd fota-->
+    <bool name="hct_use_other_fota">false</bool>
+    
+    <!--hct cuiluhao add remove wifi scan code -->
+    <bool name="hct_remove_wifi_codescan">false</bool>
+    
+    <!--hct cuiluhao add remove controls video preference -->
+    <bool name="hct_remove_empty_videopreference">true</bool>
+    <bool name="hct_remove_select5g_networkmode">true</bool>
+    <!--hct cuiluhao add available media ctrl -->
+    <bool name="hct_support_media_control">false</bool>
+    
+    <!--hct cuiluhao add remove shortcut on lock -->
+    <bool name="hct_remove_lock_screen_shortcut">false</bool>
+    <!--hct cuiluhao hide duraspeed in homepage -->
+    <bool name="hct_config_hide_duraspeed">false</bool>
+    
+    <!--hct cuiluhao add remove screen reader-->
+    <bool name="hct_remove_screen_reader">false</bool>
+    
+    <!--hct cuiluhao add remove battery manager-->
+    <bool name="hct_remove_battery_manager">false</bool>
+
+    <!--HCT.chris hide ims mms-->
+    <bool name="hct_hide_apn_ims_mms">false</bool>
+</resources>

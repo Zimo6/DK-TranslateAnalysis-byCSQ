@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <drawable name="colorwhitedrawable">#ffffffff</drawable>
+
+    <!-- start, wangsenhao, for functions tab, 2019.10.29 -->
+    <color name="tabIndicator">#ff008577</color>
+    <color name="tabBackgroundPressed">#6633B5E5</color>
+    <color name="function_tab_text_color">#ff666666</color>
+    <color name="function_tab_background_color">#fafafa</color>
+    <!-- end, wangsenhao, for functions tab, 2019.10.29 -->
+    <!-- HCT: lishuo add gesturewake -->
+    <color name="homepage_gesturewake_background">#228B22</color>
+    <!-- HCT: lishuo add gesturewake end-->
+    <!-- @{ hct.zhangningyu, 20181023, add for fingerprint. -->
+    <color name="homepage_fingerprint_background">#F4A460</color>
+    <color name="homepage_smartkey_background">#3399CC</color>
+    <!-- @} -->
+    <!-- @{ hct.lining, 20191111, add for smart key night. -->
+    <color name="ic_arrow_back_background">#ff000000</color>
+    <color name="smart_key_list_background">#ffffffff</color>
+    <color name="hct_shortcuts_item_textColor">#f0000000</color>
+    <!-- @} -->
+
+    <!-- hct liuyang add for hct navbar style -->
+    <color name="hct_navbar_image_tint_color">#ff111111</color>
+    <!-- lining add honywell scan 2020.08.04 -->
+    <color name="hct_shortcuts_item_unenabled">#ffcccccc</color>
+    <color name="hct_title_sub_icon_color">#3478f6</color>
+    <color name="hct_title_row_color">#eaeaea</color>
+    <!-- add by fenghuan for 智能体感 start. -->
+    <color name="hct_ic_motion_settings_background">#009587</color>
+    <!-- add by fenghuan for 智能体感 end. -->
+    
+    <color name="hct_actionbar_bgcolor">#fafafa</color>
+</resources>

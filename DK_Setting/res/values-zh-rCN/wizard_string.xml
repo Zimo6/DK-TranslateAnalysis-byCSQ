@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">使用条款和声明</string>
+    <string name="privacy_tips">在使用多科手机之前，请您认真阅读以下条款；点击标题可以打开文件进行阅读。一旦您使用多科设备，即表示您已阅读《隐私政策》并同意《用户许可协议》。</string>
+    <string name="privacy_policy_tile">隐私政策</string>
+    <string name="privacy_license_tile">用户许可协议</string>
+    <string name="privacy_agree_tile">我已阅读并同意上述使用条款</string>
+    <string name="privacy_button_agree">同意</string>
+    <string name="privacy_dialog_close">关闭</string>
+
+    <string name="wizard_navigation_title">选择导航方式</string>
+    <string name="wizard_navigation_gesture">手势导航</string>
+    <string name="wizard_navigation_three_button">三键导航</string>
+    <string name="wizard_navigation_next">下一步</string>
+</resources>

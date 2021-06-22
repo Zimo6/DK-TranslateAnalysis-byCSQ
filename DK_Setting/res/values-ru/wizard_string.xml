@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Положение и заявление использования </string>
+    <string name="privacy_tips">Пожалуйста,внимательно прочтите следующие соглашения перед использованием "Докэ" мобильного телефона;нажмите на название, чтобы открыть файл для чтения.Используя  "Докэ" устройство, вы подтверждаете, что уже ознакомились с "политикой конфиденциальности" и "Пользовательском лицензионном соглашением".</string>
+    <string name="privacy_policy_tile">Политика конфиденциальности</string>
+    <string name="privacy_license_tile">Пользовательское лицензионное соглашение</string>
+    <string name="privacy_agree_tile">Я прочитал и согласен с вышеуказанными положением использования</string>
+    <string name="privacy_button_agree">Согласно</string>
+    <string name="privacy_dialog_close">Закрывать</string>
+
+    <string name="wizard_navigation_title">Системная навигация</string>
+    <string name="wizard_navigation_gesture">Жестовая навигация</string>
+    <string name="wizard_navigation_three_button">3-кнопочная навигация</string>
+    <string name="wizard_navigation_next">"Далее"</string>
+</resources>

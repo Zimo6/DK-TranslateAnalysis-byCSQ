@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">利用規約</string>
+    <string name="privacy_tips">Blackviewスマートフォンをご使用になる前、下記契約をよくお読みください；タイトルをタッチするとファイルを開いて閲覧できます。本Blackviewデバイスをご使用になることによって、本『プライバシーポリシー』をお読みになって、本『使用許諾契約』を受けることに同意されたことになります。</string>
+    <string name="privacy_policy_tile">プライバシーポリシー</string>
+    <string name="privacy_license_tile">使用許諾契約</string>
+    <string name="privacy_agree_tile">上記使用許諾契約の内容を閲覧し同意します。</string>
+    <string name="privacy_button_agree">同意</string>
+    <string name="privacy_dialog_close">閉じる</string>
+
+    <string name="wizard_navigation_title">システムナビゲーション</string>
+    <string name="wizard_navigation_gesture">ジェスチャーナビゲーション</string>
+    <string name="wizard_navigation_three_button">3ボタンナビゲーション</string>
+    <string name="wizard_navigation_next">次へ</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Kullanım Koşulları ve Beyanı</string>
+    <string name="privacy_tips">Duoke cep telefonunu kullanmadan önce lütfen aşağıdaki şartları dikkatlice okuyun; Okunacak dosyayı açmak için başlığa tıklayın. Duoke\'nin ekipmanını kullandığınızda, "Gizlilik Politikası" nı okuduğunuz ve "Kullanıcı Lisans Sözleşmesi" ni kabul ettiğiniz anlamına gelir.</string>
+    <string name="privacy_policy_tile">Gizlilik Politikası</string>
+    <string name="privacy_license_tile">Kullanıcı lisans sözleşmesi</string>
+    <string name="privacy_agree_tile">Yukarıdaki kullanım şartlarını okudum ve kabul ediyorum</string>
+    <string name="privacy_button_agree">Kabul et</string>
+    <string name="privacy_dialog_close">Kapat</string>
+
+    <string name="wizard_navigation_title">"Sistem navigasyonu"</string>
+    <string name="wizard_navigation_gesture">"Hareketle gezinme"</string>
+    <string name="wizard_navigation_three_button">"3 düğme ile gezinme"</string>
+    <string name="wizard_navigation_next">"Sonraki"</string>
+</resources>

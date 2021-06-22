@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Términos  de uso y declaración</string>
+    <string name="privacy_tips">Lea atentamente los siguientes términos antes de usar su teléfono móvil Doke; Haga clic en el título, puede abrir el archivo para leer.Al utilizar un dispositivo Doke, se entiende como ha leído la Política de Privacidad y ha aceptado el Acuerdo de Licencia de Usuario.</string>
+    <string name="privacy_policy_tile">Política de privacidad</string>
+    <string name="privacy_license_tile">El auerdo de licencia de usuario</string>
+    <string name="privacy_agree_tile">He leído y acepto los anteriores términos de uso </string>
+    <string name="privacy_button_agree">Aceptar</string>
+    <string name="privacy_dialog_close">Apagar</string>
+
+    <string name="wizard_navigation_title">Sistema de navegación</string>
+    <string name="wizard_navigation_gesture">Navegación gestual</string>
+    <string name="wizard_navigation_three_button">Navegación de 3 botones</string>
+    <string name="wizard_navigation_next">"Siguiente"</string>
+</resources>

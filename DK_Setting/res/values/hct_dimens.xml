@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- start, wangsenhao, for functions tab, 2019.10.29 -->
+    <dimen name="homepage_tab_height">48dp</dimen>
+    <dimen name="homepage_function_title_textsize">12dp</dimen>
+    <dimen name="homepage_function_imagesize">60dp</dimen>
+    <!-- end, wangsenhao, for functions tab, 2019.10.29 -->
+    <!-- @{ hct.zhangningyu, 20190103, add for side fingerprint. -->
+    <item name="hct_side_fingerprint_sensor_location_fraction_x" type="fraction">80%</item>
+    <item name="hct_side_fingerprint_sensor_location_fraction_y" type="fraction">60%</item>
+    <dimen name="prize_tile_divider_margin">18dp</dimen>
+    <!-- @} -->
+
+    <!--hct liuyang add for battery advanced settings begin -->
+    <dimen name="app_list_icon_size">40dp</dimen>
+    <dimen name="app_list_margin">6dp</dimen>
+    <!--hct liuyang add for battery advanced settings end -->
+
+</resources>

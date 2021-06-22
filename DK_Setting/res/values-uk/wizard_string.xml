@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--bv xiawenwen add for wizard 20210406-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="privacy_title">Умови використання та заява</string>
+    <string name="privacy_tips">Будь-ласка, уважно ознайомтеся з наступними умовами перед використанням телефону. Відкрити файл та ознайомитися з ним можна, натиснувши на заголовок. Якщо ви починаєте використовувати обладнання "Доке", це означає, що ви ознайомилися з "Політикою конфіденційності" та погоджуєтеся з "Ліцензійною угодою користувача". </string>
+    <string name="privacy_policy_tile">Політика конфіденційності </string>
+    <string name="privacy_license_tile">Ліцензійна угода користувача</string>
+    <string name="privacy_agree_tile">Я ознайомився та погоджуюся з вищезазначеними умовами використання </string>
+    <string name="privacy_button_agree">Погоджуюся </string>
+    <string name="privacy_dialog_close">Закрити </string>
+
+    <string name="wizard_navigation_title">Система навігації</string>
+    <string name="wizard_navigation_gesture">Гестуральна навігація</string>
+    <string name="wizard_navigation_three_button">Навігація з 3 кнопками</string>
+    <string name="wizard_navigation_next">Далі</string>
+</resources>
